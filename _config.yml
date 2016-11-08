@@ -1,0 +1,11 @@
+# Site settings
+title: Maria's website | 1DV022 LNU
+email: mg222ym@student.lnu.se
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to this breathtaking website that stores my assignments in the course "Client-based webprogramming" (and possibly in courses to come) at Linnaeus university in Sweden.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+github_username:  margvo
+
+# Build settings
+markdown: kramdown
