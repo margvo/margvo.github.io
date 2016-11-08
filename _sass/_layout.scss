@@ -1,25 +1,37 @@
+body {
+    background-color: #EEEEEE;
+}
+
 /**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    /*border-top: 5px solid $grey-color-dark;*/
+    /*border-bottom: 1px solid $grey-color-light;*/
+    min-height: 256px;
+    background-color: #000000;
+    background-image: url("../images/header-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
+    border: solid white thin;
     font-size: 26px;
-    line-height: 56px;
+    line-height: 30px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    margin-top: 15px;
+    padding: 5px;
     float: left;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        /*color: $grey-color-dark;*/
+        color: white;
     }
 }
 
