@@ -19,7 +19,7 @@ body {
 }
 
 .site-title {
-    border: solid white thin;
+    border: solid $background-color thin;
     font-size: 26px;
     line-height: 30px;
     letter-spacing: -1px;
@@ -31,7 +31,12 @@ body {
     &,
     &:visited {
         /*color: $grey-color-dark;*/
-        color: white;
+        color: $background-color;
+    }
+
+    &:hover {
+        background-color: rgba(1, 1, 1, 0.3);
+        text-decoration: none;
     }
 }
 
@@ -44,12 +49,16 @@ body {
     }
 
     .page-link {
-        color: $text-color;
+        color: $background-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 

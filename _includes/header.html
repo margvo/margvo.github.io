@@ -17,6 +17,9 @@
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ ../_layouts/assignments.html | prepend: site.baseurl }}"> Assignments </a>
+          <a class="page-link" href="{{ ../_layouts/blog.html | prepend: site.baseurl }}"> Blog </a>
+          <a class="page-link" href="{{ ../_layouts/contact.html | prepend: site.baseurl }}"> Contact </a>
           {% endif %}
         {% endfor %}
       </div>
