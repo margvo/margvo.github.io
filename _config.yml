@@ -2,10 +2,24 @@
 title: Task Storage
 email: mg222ym@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to this breathtaking website that stores my assignments in the course "Client-based webprogramming" (and possibly in courses to come) at Linnaeus university in Sweden.
+  Website that stores assignments in the course Client-based Webprogramming (creating applications for the web browser) at Linnaeus university in Sweden.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 github_username:  margvo
+
+# a template URL where dynamic elements are represented by colon-prefixed keywords
+permalink: /:categories/:title
+
+# navigation links
+links:
+ - title: about
+   url: /about
+ - title: assignments
+   url: /assignments
+ - title: blog
+   url: /blog
+ - title: contact
+   url: /contact
 
 # Build settings
 markdown: kramdown
