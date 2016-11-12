@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: Verdana, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -23,15 +21,13 @@ $black-background: #1E1F21;
 $white-color:      #FFFFFF;
 $grey-font-color:  #686B6A;
 
-$grey-color:       #828282;
+$grey-color: #d9d9d9;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Using media queries with like this:
 // @include media-query($palm) {
@@ -45,8 +41,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
