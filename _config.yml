@@ -10,7 +10,7 @@ github_username:  margvo
 # a template URL where dynamic elements are represented by colon-prefixed keywords
 permalink: /:categories/:title
 
-# navigation links
+# navigation links (as tutorial video "Building Static Websites With Jekyll. Configuration" suggests on https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)
 links:
  - title: about
    url: /about
