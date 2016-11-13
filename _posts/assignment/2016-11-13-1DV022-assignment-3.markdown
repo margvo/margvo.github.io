@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "1DV022 - Assignment 3"
+date:   2016-11-13 23:05:25
+categories: assignment
+---
+
+In this assignment we are supposed to build a single page application with chat integration against a web socket server (a "Personal Web Desktop" or PWD).
+
+## Requirements
+
+* The application should be a single page application.
+* The user shall be able to open multiple windows (not browser windows/tabs but custom windows created using the DOM) within the application.
+* The user shall be able to drag and move the windows inside the PWD.
+* The user shall be able to open and close new windows of the desired application by clicking or double clicking an icon at the desktop.
+* The icon used to open the window should be represented in the upper bar of the window.
+* Windows should get focus when clicked/dragged.
+* The window with focus shall be on top of all other windows.
+
+The following three applications should at least be included in the desktop application:
+
+* A memory-game
+* A chat connected to a central chat channel using websockets
+* One, by you, designed and decided application
+
+Non functional requirements PWD:
+
+* The application shall be visually appealing
+* The code shall be organized in appropriate modules
+
+Källa: [Exam Assignment 3. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-3/)

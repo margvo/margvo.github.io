@@ -5,4 +5,22 @@ date:   2016-11-13 20:58:25
 categories: assignment
 ---
 
+In this assignment we are supposed to produce a web site that will be the front for our published assignments in this course and possibly in courses to come.
 
+## Requirements
+
+* Well designed
+
+* All CSS should be generated from a CSS preprocessor
+
+* Website should have multiple pages, inclusive blog posts (more than one)
+
+* Visitors should be able to comment on posts
+
+* Website should have a [robots.txt](http://www.robotstxt.org/)
+
+* Website should have a [humans.txt](http://humanstxt.org/)
+
+* [Open graph](http://ogp.me/) should be used for easy sharing on social media
+
+Källa: [Exam Assignment 1. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/)

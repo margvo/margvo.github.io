@@ -10,7 +10,7 @@ permalink: /assignments/
     </header>
 
     <ul class="assignment-list">
-        {% for assignment in site.categories['assignment'] %}
+        {% for assignment in site.categories['assignment'] reversed %}
         <li class="assignment">
             <span class="assignment-meta">{{ assignment.date | date: "%b %-d, %Y" }}</span>
 
