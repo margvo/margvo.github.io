@@ -295,3 +295,26 @@
 .read-more {
     text-align: center;
 }
+
+/**
+ * Assignments
+ */
+.assignment-list {
+    list-style: none;
+}
+
+.assignment {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.assignment img {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.assignment-title {
+    font-size: $h2-font-size;
+    margin-top: .5em;
+}

@@ -2,6 +2,7 @@
 layout: post
 title:  "1DV022 - Assignment 2"
 date:   2016-11-13 21:32:25
+image: "/images/assignment-2.jpg"
 categories: assignment
 ---
 
@@ -17,4 +18,4 @@ We should create a client application in which the user should answer quiz-quest
 * The user should be able to choose a nickname at the start of the game that will be used in the high-score list.
 * Application should use Web Storage to store a high-score list which presents the five fastest total times (on that specific client) at the end of the game. At least nickname and total time should be present.
 
-Källa: [Exam Assignment 2. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-2/)
+Source: [Exam Assignment 2. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-2/)

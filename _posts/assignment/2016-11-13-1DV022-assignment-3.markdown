@@ -2,6 +2,7 @@
 layout: post
 title:  "1DV022 - Assignment 3"
 date:   2016-11-13 23:05:25
+image: "/images/assignment-2.jpg"
 categories: assignment
 ---
 
@@ -28,4 +29,4 @@ Non functional requirements PWD:
 * The application shall be visually appealing
 * The code shall be organized in appropriate modules
 
-Källa: [Exam Assignment 3. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-3/)
+Source: [Exam Assignment 3. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-3/)

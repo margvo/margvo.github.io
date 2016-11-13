@@ -12,14 +12,9 @@ permalink: /assignments/
     <ul class="assignment-list">
         {% for assignment in site.categories['assignment'] reversed %}
         <li class="assignment">
-            <span class="assignment-meta">{{ assignment.date | date: "%b %-d, %Y" }}</span>
 
-            <a href="{{ assignment.url }}">
-                <figure>
-                    <img src="" alt="">
-                    <figcaption class="assignment-caption">{{ assignment.title }}</figcaption>
-                </figure>
-            </a>
+            <a href="{{ assignment.url }}"><img src="{{ assignment.image }}" alt="Screenshot for {{ assignment.title }}"></a>
+            <h2 class="assignment-title">{{ assignment.title }}</h2>
 
             <!--the hidden content trick is from the tutorial video "Building Static Websites With Jekyll. Latest Articles."  Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)-->
             <p>{{ assignment.content | strip_html | strip_newlines | truncate: 200 }}</p>

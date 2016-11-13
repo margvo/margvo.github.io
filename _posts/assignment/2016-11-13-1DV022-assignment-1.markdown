@@ -2,6 +2,7 @@
 layout: post
 title:  "1DV022 - Assignment 1"
 date:   2016-11-13 20:58:25
+image: "/images/assignment-1.jpg"
 categories: assignment
 ---
 
@@ -23,4 +24,6 @@ In this assignment we are supposed to produce a web site that will be the front 
 
 * [Open graph](http://ogp.me/) should be used for easy sharing on social media
 
-Källa: [Exam Assignment 1. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/)
+
+
+Source: [Exam Assignment 1. Klientbaserad webbprogrammering. LNU.](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/)
