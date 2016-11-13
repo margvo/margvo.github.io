@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Maria. I'm 28 years old. I was born and grew up in Moscow region, Russia. In 2014 I moved to Sweden and I'm excited to have the opportunity to study at Linnaeus University. I have a Master's degree in History and Tourism and even though  I'm humanity by education I have 
+always been fascinated by technologies and computers that is why I have chosen the Software Development programme as my second higher education. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+As for my hobbies,  I like travelling but lately I don't have too much time for it. Education takes up all my attention: besides university courses I'm taking a couple of additional courses in computer-related areas, 
+trying to learn Swedish and practice on English while preparing for taking driving license at the same time. One  can say I'm quite thirst for knowledge. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+In the rare hours of peace and freedom I like to check some nice horror or soviet film (what can I do,  I was born in the USSR...), to explore new music (hip-hop, electronic and ethnic is in focus), to visit some 
+art exhibition or just to chat with my wonderful family.
+
