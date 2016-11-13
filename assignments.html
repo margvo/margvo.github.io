@@ -9,18 +9,23 @@ permalink: /assignments/
         <h1>{{ page.title }}</h1>
     </header>
 
-    <!--<ul class="assignments-list">-->
-        <!--{% for assignment in site.categories['assignment'] %}-->
-        <!--<li class="assignment">-->
-            <!--<span class="assignment-meta">{{ assignment.date | date: "%b %-d, %Y" }}</span>-->
+    <ul class="assignment-list">
+        {% for assignment in site.categories['assignment'] %}
+        <li class="assignment">
+            <span class="assignment-meta">{{ assignment.date | date: "%b %-d, %Y" }}</span>
 
-            <!--<h2>{{ assignment.title }}</h2>-->
+            <a href="{{ assignment.url }}">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption class="assignment-caption">{{ assignment.title }}</figcaption>
+                </figure>
+            </a>
 
-            <!--&lt;!&ndash;the hidden content trick is from the tutorial video "Building Static Websites With Jekyll. Latest Articles."  Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)&ndash;&gt;-->
-            <!--<p>{{ assignment.content | strip_html | strip_newlines | truncate: 200 }}</p>-->
+            <!--the hidden content trick is from the tutorial video "Building Static Websites With Jekyll. Latest Articles."  Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)-->
+            <p>{{ assignment.content | strip_html | strip_newlines | truncate: 200 }}</p>
 
-            <!--<p class="read-more"><a href="{{ assignment.url | prepend: site.baseurl }}">read more...</a></p>-->
-        <!--</li>-->
-        <!--{% endfor %}-->
-    <!--</ul>-->
+            <p class="read-more"><a href="{{ assignment.url | prepend: site.baseurl }}">read more...</a></p>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
