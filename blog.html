@@ -1,22 +1,22 @@
 ---
-layout: default
+layout: post
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
-
-    <h1 class="page-heading">Blog</h1>
 
     <ul class="post-list">
         {% for post in site.posts %}
         <li class="post">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <h2>{{ post.title }}</h2>
 
             <!--the hidden content trick is from the tutorial video "Building Static Websites With Jekyll. Latest Articles."  Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)-->
             <p>{{ post.content | strip_html | strip_newlines | truncate: 200 }}</p>
 
-            <p class="read-more"><a href="#">read more...</a></p>
+            <p class="read-more"><a href="{{ post.url | prepend: site.baseurl }}">read more...</a></p>
         </li>
         {% endfor %}
     </ul>

@@ -5,9 +5,7 @@ date:   2016-11-13 00:05:25
 categories: jekyll update
 ---
 
-This is my first post where I just want to impress you with my Markdown skills.
-At the moment I'm writing this post, I'm 5 days away (time sure does fly) from deadline
-to submit the first assignment in the course "Client-based Web programming".
+This is my first post where I just want to impress you with my Markdown skills. At the moment I'm writing this post, I'm 5 days away (time sure does fly) from deadline to submit the first assignment in the course "Client-based Web programming".
 
 This is what I have done so far:
 
