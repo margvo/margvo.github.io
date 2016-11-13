@@ -1,0 +1,39 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+
+<div class="contact">
+    <header class="contact-header">
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    <article class="connect-content">
+        <p> If you have some questions about this website or if you just want to know more about me, don't hesitate to contact me. I'm looking forward to hearing from you!<p>
+        <p>There are a few ways of connecting with me. You can either use this contact page, email me or interact with me through social media. </p>
+
+        <form name="contactForm" method="post" enctype="text/plain" action="http://www.olzzon.com/cgi-bin/p.cgi?epost=mg222ym-DDD-student.lnu.se&id=1">
+            <input type="hidden" name="form" value="Contact request at 1DV022">
+            <fieldset>
+                <div id="contact-info">
+                    <label for="name"> &#42;Name:</label>
+                    <input type = "text" name = "name" id="name" maxlength="50" required />
+
+                    <label for="email">E-mail:</label>
+                    <input type = "email" name = "email-adress" id="email" maxlength="70" />
+                </div>
+
+                <div id="message">
+                    <p>&#42;Message: </p>
+                    <textarea name="message" rows = "10" cols="90" required placeholder = "Write here..."></textarea>
+                </div>
+
+                <p class="submit">
+                    <input type="submit" value="Skicka" />
+                    <input type="reset" value="Rensa" />
+                </p>
+             </fieldset>
+        </form>
+    </article>
+</div>
