@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "My first post!"
 date:   2016-11-13 00:05:25
 categories: blog
