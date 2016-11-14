@@ -19,7 +19,7 @@ permalink: /assignments/
             <!--the hidden content trick is from the tutorial video "Building Static Websites With Jekyll. Latest Articles."  Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)-->
             <p>{{ assignment.content | strip_html | strip_newlines | truncate: 200 }}</p>
 
-            <p class="read-more"><a href="{{ assignment.url | prepend: site.baseurl }}">read more...</a></p>
+            <p class="read-more"><a href="{{ assignment.url | prepend: site.baseurl }}" rel=”nofollow”>read more...</a></p>
         </li>
         {% endfor %}
     </ul>
