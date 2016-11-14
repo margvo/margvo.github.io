@@ -1,0 +1,28 @@
+/* TEAM */
+
+Designer & Developer: Maria Gvozdeva
+Contact: mg222ym@student.lnu.se
+Twitter: @orksofta
+Location: Hallstahammar, Sweden
+
+
+/* SITE */
+
+Last update: 2016/11/17
+Language: English
+Doctype: HTML5
+
+
+/* SOFTWARE */
+
+- JetBrains WebStorm
+- Photoshop
+- Git + GitHub + GitHub Pages
+- the Jekyll static site generator
+- Disqus
+
+
+/* THANKS /*
+
+to Tuts+ for the great tutorial about building static websites with Jekyll
+(Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)
