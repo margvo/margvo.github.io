@@ -15,6 +15,7 @@
 }
 
 .site-title {
+    text-decoration: none;
     border: solid $white-color thin;
     font-size: 26px;
     line-height: 30px;
@@ -162,19 +163,32 @@
     color: $grey-color;
     background-color: $black-background;
 }
+
+.footer-heading {
+    font-size: $h2-font-size;
+    color: $grey-font-color;
+    text-align: left;
+}
+
 .footer-content {
     float: left;
     width: 40%;
     font-size: $small-font-size;
+    text-align: justify;
+
+    a {
+        color: $white-color;
+        text-decoration: underline;
+        &:visited {
+            color: $grey-font-color;
+        }
+    }
 }
-.footer-heading {
-    text-align: left;
-}
+
 .footer-social-media {
     float: right;
-    li {
-        display: inline-block;
-        margin: 0 .5em;
+    a{
+        text-decoration: none;
     }
 }
 
@@ -223,23 +237,39 @@
 //}
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+    //.footer-col-1,
+    //.footer-col-2 {
+    //    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    //    width:         calc(50% - (#{$spacing-unit} / 2));
+    //}
+    //
+    //.footer-col-3 {
+    //    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    //    width:         calc(100% - (#{$spacing-unit} / 2));
+    //}
 }
 
 @include media-query($on-palm) {
-    .footer-col {
+    //.footer-col {
+    //    float: none;
+    //    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    //    width:         calc(100% - (#{$spacing-unit} / 2));
+    //}
+
+    .footer-heading {
+        text-align: center;
+    }
+
+    .footer-content {
+        text-align: center;
+        width: 100%;
+        //margin: 0 auto;
+    }
+
+    .footer-social-media {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        margin: 0 auto;
+
     }
 }
 
@@ -253,7 +283,11 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: $h1-font-size;
+}
+
+.post-title {
+    font-size: $h1-font-size;
 }
 
 .post-list {

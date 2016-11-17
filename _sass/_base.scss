@@ -97,11 +97,11 @@ h2 {
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
+    color: $grey-font-color;
+    text-decoration: underline;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($grey-font-color, 15%);
     }
 
     &:hover {
