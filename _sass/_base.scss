@@ -8,11 +8,18 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+h1, h2 {
+    font-family: $serif-font-family;
+}
 
 /**
  * Basic styling
  */
+
+header {
+    font-family: $serif-font-family;
+}
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -113,7 +120,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
+    color: $brand-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;

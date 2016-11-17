@@ -165,7 +165,8 @@
 }
 
 .footer-heading {
-    font-size: $h2-font-size;
+    font-family: $serif-font-family;
+    font-size: $base-font-size;
     color: $grey-font-color;
     text-align: left;
 }
@@ -375,7 +376,7 @@
 }
 
 .img-me {
-    width: 20em;
+    width: 17em;
     border-radius: 50%;
     margin: 1em auto;
     margin-bottom: 2em;
@@ -402,7 +403,7 @@
     box-shadow: 0 10px 6px -6px #777;
 
     img {
-        width: 10em;
+        width: 7em;
         margin: 0 auto;
         display: block;
     }
