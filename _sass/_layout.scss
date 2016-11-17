@@ -270,6 +270,11 @@
         float: none;
         margin: 0 auto;
 
+        img {
+            margin: .5em auto;
+            display: block;
+        }
+
     }
 }
 
@@ -359,6 +364,19 @@
             font-size: 18px;
         }
     }
+}
+
+.sign {
+    text-align: center;
+}
+
+.img-me {
+    width: 20em;
+    border-radius: 50%;
+    margin: 1em auto;
+    margin-bottom: 2em;
+    display: block;
+
 }
 
 .read-more {
