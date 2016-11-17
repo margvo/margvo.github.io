@@ -8,7 +8,7 @@ categories: blog
 
 * **_What do you think of pre-compiling your CSS?_**
 
-Just as static site generators CSS preprocessors require some time to get used to it.
+Just like static site generators CSS preprocessors require some time to get used to it.
 As for me, I felt slightly nostalgic for good old regular CSS in the beginning,
 but in the process I realized and experienced that pre-compiling is not that bad,
 especially in combination with a good IDE it really makes your life easier.
@@ -59,7 +59,7 @@ be the most striking example of applying SSG.
 It is a file in the TXT format that gives instructions to Web Robots about how to or how no to crawl the website.
 In my case I allow the Googlebot service to crawl and index my website by specifying its name as a user-agent
 and leaving the "Disallow" directive with no value. At the same time in order to avoid spam messages I tell all other robots
-(User-agent: *) to stay away from specific files such as contact.html and the folder with my blog posts.
+(`User-agent: *`) to stay away from specific files such as contact.html and the folder with my blog posts.
 
 ***
 
@@ -70,14 +70,14 @@ in the website developing process as well as some technical information about th
 that has been used to create it. In my case I divided it into four sections: TEAM where I mentioned all people
 that had contributed to building my website (not so many actually, only me), SITE where I specified
 the last update, language and doctype, SOFTWARE where I listed the programs and services that had been used,
-and the THANKS section where I expressed gratitude to some tutorial course that helped me to build my website.
+and the THANKS section where I expressed gratitude to some tutorial course that helped me to build my website as well as to a few resources with free images and fonts.
 
 ***
 
 * **_How did you implement comments to blog posts_**
 
 I used Disqus, a blog comment hosting service, that generated a piece of the Embed Code. I  provided every
-Markdown file that contains the post itself with a variable called comments and set its value to TRUE. Then
+Markdown file that contains the post itself with a variable called `comments` and set its value to TRUE. Then
 I placed the Embed Code between `% if page.comments %` and a `% endif %` in my HTML-file with the layout for posts
 (after the section with the post content).
 
@@ -87,4 +87,5 @@ I placed the Embed Code between `% if page.comments %` and a `% endif %` in my H
 
 Open Graph is a protocol that lets the developer (by adding metadata in the head of the web page) control the visual
 representation of the content (preview of the link) on social media. We make use of it first of all by sharing on social media
-(for example, Facebook or Twitter) in order to draw more attention and hence a wider audience.
+(for example, Facebook or Twitter) in order to draw more attention and hence a wider audience. In my case I have added five meta tags
+in the `head` section of the pages, specifying title, type, image, url and description,
