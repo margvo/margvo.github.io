@@ -366,6 +366,10 @@
     }
 }
 
+.post-meta {
+    color: $brand-color;
+}
+
 .sign {
     text-align: center;
 }
@@ -390,14 +394,17 @@
     list-style: none;
 }
 
-.assignment {
+.assignment, .post-box {
     text-align: center;
     padding: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
+    border: solid $black-background .3em;
+    box-shadow: 0 10px 6px -6px #777;
 
     img {
-        width: 400px;
+        width: 10em;
         margin: 0 auto;
+        display: block;
     }
 }
 
