@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+active: about
 ---
 
 My name is Maria. I'm 28 years old. I was born and grew up in Moscow region, Russia. In 2014 I moved to Sweden and I'm excited to have the opportunity to study at Linnaeus University. I have a Master's degree in History and Tourism and even though  I'm humanity by education I have 

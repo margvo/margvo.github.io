@@ -11,16 +11,20 @@ twitter_username: orksofta
 # a template URL where dynamic elements are represented by colon-prefixed keywords
 permalink: /:categories/:title
 
-# navigation links (as tutorial video "Building Static Websites With Jekyll. Configuration" suggests on https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)
+# navigation links (as the tutorial video "Building Static Websites With Jekyll. Configuration" suggests on https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)
 links:
  - title: about
    url: /about
+   active: about
  - title: assignments
    url: /assignments
+   active: assignments
  - title: blog
    url: /blog
+   active: blog
  - title: contact
    url: /contact
+   active: contact
 
 # Build settings
 markdown: kramdown
