@@ -1,19 +1,23 @@
-/* TEAM */
+# humanstxt.org
+
+# TEAM
 
 Designer & Developer: Maria Gvozdeva
 Contact: mg222ym@student.lnu.se
 Twitter: @orksofta
 Location: Hallstahammar, Sweden
 
+---
 
-/* SITE */
+# SITE
 
 Last update: 2016/11/17
 Language: English
 Doctype: HTML5
 
+---
 
-/* SOFTWARE */
+# SOFTWARE
 
 - JetBrains WebStorm
 - Photoshop
@@ -21,8 +25,9 @@ Doctype: HTML5
 - the Jekyll static site generator
 - Disqus
 
+----
 
-/* THANKS /*
+# THANKS
 
 to Tuts+ for the great tutorial about building static websites with Jekyll
 (Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)
