@@ -26,3 +26,5 @@ Doctype: HTML5
 
 to Tuts+ for the great tutorial about building static websites with Jekyll
 (Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)
+
+to Unsplash (https://unsplash.com) and Pixabay (https://pixabay.com/) for being a great source for free images and photos

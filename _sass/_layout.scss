@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    /*border-top: 5px solid $grey-color-dark;*/
-    /*border-bottom: 1px solid $grey-color-light;*/
     min-height: 256px;
     background-color: #000000;
     background-image: url("../images/header-background.jpg");
@@ -58,8 +56,6 @@
         display: none;
     }
 
-
-
     .page-link {
         position: relative;
         text-decoration: none;
@@ -100,7 +96,6 @@
         position: absolute;
         top: 15px;
         right: 30px;
-        //background-color: $background-color;//
         background-color: $black-background;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -154,7 +149,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -192,50 +186,6 @@
         text-decoration: none;
     }
 }
-
-//.site-footer {
-//    border-top: 1px solid $grey-color-light;
-//    padding: $spacing-unit 0;
-//}
-//
-//.footer-heading {
-//    font-size: 18px;
-//    margin-bottom: $spacing-unit / 2;
-//}
-//
-//.contact-list,
-//.social-media-list {
-//    list-style: none;
-//    margin-left: 0;
-//}
-//
-//.footer-col-wrapper {
-//    font-size: 15px;
-//    color: $grey-color;
-//    margin-left: -$spacing-unit / 2;
-//    @extend %clearfix;
-//}
-//
-//.footer-col {
-//    float: left;
-//    margin-bottom: $spacing-unit / 2;
-//    padding-left: $spacing-unit / 2;
-//}
-//
-//.footer-col-1 {
-//    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-//    width:         calc(35% - (#{$spacing-unit} / 2));
-//}
-//
-//.footer-col-2 {
-//    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-//    width:         calc(20% - (#{$spacing-unit} / 2));
-//}
-//
-//.footer-col-3 {
-//    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-//    width:         calc(45% - (#{$spacing-unit} / 2));
-//}
 
 @include media-query($on-laptop) {
     //.footer-col-1,
@@ -280,7 +230,6 @@
 }
 
 
-
 /**
  * Page content
  */
@@ -316,7 +265,6 @@
 }
 
 
-
 /**
  * Posts
  */
@@ -333,9 +281,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+
 }
 
 .post-content {
@@ -348,21 +294,10 @@
         @include media-query($on-laptop) {
             font-size: 28px;
         }
-    }
 
-    h3 {
-        font-size: 26px;
+        @include media-query($on-palm) {
+            font-size: 20px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
         }
     }
 }
@@ -393,6 +328,7 @@
  */
 .assignment-list {
     list-style: none;
+    margin: 0 auto;
 }
 
 .assignment, .post-box {
@@ -412,8 +348,19 @@
 .assignment-title {
     font-size: $h2-font-size;
     margin-top: .5em;
+    @include media-query($on-laptop) {
+        font-size: 28px;
+    }
+
+    @include media-query($on-palm) {
+        font-size: 20px;
+
+    }
 }
 
+/**
+ * Form
+ */
 
 fieldset {
     margin: 2em auto;
