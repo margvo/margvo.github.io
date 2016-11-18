@@ -2,7 +2,7 @@
 layout: post
 title:  "1DV022 - Assignment 3"
 date:   2016-11-13 23:05:25
-image: "/images/assignment-3.png"
+image: assignment-3.png
 categories: assignment
 description: The description of the third assignment for the course Client-based Web Programming at Linnaeus university in Sweden.
 ---

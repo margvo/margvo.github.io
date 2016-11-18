@@ -14,7 +14,7 @@ active: assignments
         {% for assignment in site.categories['assignment'] reversed %}
         <li class="assignment">
 
-            <a href="{{ assignment.url }}"><img src="{{ assignment.image }}" alt="Screenshot for {{ assignment.title }}"></a>
+            <a href="{{ assignment.url }}"><img src="/images/{{ assignment.image }}" alt="Screenshot for {{ assignment.title }}"></a>
             <h2 class="assignment-title">{{ assignment.title }}</h2>
 
             <!--the hidden content trick is from the tutorial video "Building Static Websites With Jekyll. Latest Articles."  Source: https://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll)-->
