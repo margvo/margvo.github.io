@@ -4,6 +4,7 @@ title:  "1DV022 - Assignment 1"
 date:   2016-11-13 20:58:25
 image: "/images/assignment-1.png"
 categories: assignment
+description: The description of the first assignment for the course Client-based Web Programming at Linnaeus university in Sweden.
 ---
 
 In this assignment we are supposed to produce a web site that will be the front for our published assignments in this course and possibly in courses to come.

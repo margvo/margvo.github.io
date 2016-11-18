@@ -4,6 +4,7 @@ comments: true
 title:  "My reflections over the first assignment for 1DV022"
 date:   2016-11-14 19:34:25
 categories: blog
+description: My answers to the assignment questions.
 ---
 
 * **_What do you think of pre-compiling your CSS?_**
@@ -88,4 +89,6 @@ I placed the Embed Code between `% if page.comments %` and a `% endif %` in my H
 Open Graph is a protocol that lets the developer (by adding metadata in the head of the web page) control the visual
 representation of the content (preview of the link) on social media. We make use of it first of all by sharing on social media
 (for example, Facebook or Twitter) in order to draw more attention and hence a wider audience. In my case I have added five meta tags
-in the `head` section of the pages, specifying title, type, image, url and description,
+in the `head` section of the pages, specifying title, type, image, url and description, and a few more additional tags in order to support Twitter Cards.
+ I have also used the if-else statement and the YAML Front Matter block to control what kind of data specified in the meta tags should appear after the
+ link has been shared.

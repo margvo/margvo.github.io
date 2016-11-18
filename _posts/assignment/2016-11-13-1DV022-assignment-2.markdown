@@ -4,6 +4,7 @@ title:  "1DV022 - Assignment 2"
 date:   2016-11-13 21:32:25
 image: "/images/assignment-2.png"
 categories: assignment
+description: The description of the second assignment for the course Client-based Web Programming at Linnaeus university in Sweden.
 ---
 
 In this assignment we should create a client application in which the user should answer quiz-questions with limited time for thinking.

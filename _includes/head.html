@@ -6,11 +6,39 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link href="https://fonts.googleapis.com/css?family=Coustard|Imprima" rel="stylesheet">
 
-    <meta property="og:title" content="Task Storage" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/images/assignment-1.jpg" />
-    <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@TaskStorage">
+    {% if page.title %}
+        <meta property="og:title" content={{ page.title }} />
+        <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+        <meta property="og:title" content={{ site.title }} />
+        <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.categories %}
+        <meta property="og:type" content={{ page.categories }} />
+    {% else %}
+        <meta property="og:type" content="website" />
+    {% endif %}
+    {% if page.url %}
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    <meta name="twitter:creator" content="@orksofta">
+    {% if page.image %}
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+        <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}" />
+    {% else %}
+        <meta property="og:image" content="{{ site.url }}/images/logo.png" />
+        <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png" />
+    {% endif %}
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+        <meta property="og:description" content="{{ site.description }}" />
+        <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
 
     <meta name="description" content="{{ site.description }}">
 

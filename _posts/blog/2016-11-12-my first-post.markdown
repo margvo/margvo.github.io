@@ -4,6 +4,7 @@ comments: true
 title:  "My first post!"
 date:   2016-11-13 00:05:25
 categories: blog
+description: Nothing special, I'm just trying to understand how the Markdown language works.
 ---
 
 This is my first post where I just want to impress you with my Markdown skills. At the moment I'm writing this post, I'm 5 days away (time sure does fly) from deadline to submit the first assignment in the course "Client-based Web programming".
